@@ -47,5 +47,22 @@ git normar flow
 
     Resolving Merge Conflicts
     An event that takes place when Git is unable to automatically resolve difference in code between two commits
-    
 
+
+    manually reoved for  Accept current changes  Accept incomming changes  Accept both changes compare changes 
+
+
+    Undoing Changes
+
+    case  1 : Stage changes 
+    git reset fileName
+    git reset    // current add all file or changing file previous state
+
+    case 2 : commit change (for one commit )
+    git reset HEAD~1  remove one commit to to previous commit stage 
+
+    Case 3 : commit changes for many commit 
+
+    git reset commitHash
+    git reset --hard commithash
+    
