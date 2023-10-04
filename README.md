@@ -44,3 +44,8 @@ git normar flow
 
     used to fetch and download content from remote repo and immediately update the loacal repo to match that content
 
+
+    Resolving Merge Conflicts
+    An event that takes place when Git is unable to automatically resolve difference in code between two commits
+    
+
