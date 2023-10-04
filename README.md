@@ -13,3 +13,34 @@ git normar flow
     git branch -M main  // current branch name rename 
     git push -u origin main // push current repo to remote repo sent code 
     
+
+    Branch command
+
+    git branch  (to check branch)
+
+    git branch -M main  (to rename branch)
+
+    git checkout branchName  (navigate to branchName)
+
+    git checkout -b newBranchName   (to create a new branch)
+    git branch -d branchName  (to delete branchName)
+
+    Merging Code
+
+    way one 
+    git diff branchName (to compare commit branch, file more)
+
+    git merge barnchName  to merge to branch
+
+    way two 
+    Create PR
+
+
+    Pull Request 
+    it lets you tell other about changes you have pushed to a branch in a repo on
+
+    pull command 
+    git pull origin BranchName
+
+    used to fetch and download content from remote repo and immediately update the loacal repo to match that content
+
